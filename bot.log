@@ -1,0 +1,12 @@
+2026-04-23 16:07:13,545 - TradingBot - INFO - Binance Futures Testnet client initialized.
+2026-04-23 16:07:13,546 - TradingBot - INFO - Processing MARKET order for BTCUSDT
+2026-04-23 16:07:13,546 - TradingBot - INFO - Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-04-23 16:07:13,546 - TradingBot - INFO - Order response received: {'orderId': 12345678, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '65432.10', 'type': 'MARKET', 'side': 'BUY'}
+2026-04-23 16:07:13,546 - TradingBot - INFO - Processing LIMIT order for ETHUSDT
+2026-04-23 16:07:13,546 - TradingBot - INFO - Sending order request: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.1, 'price': 3500.0, 'timeInForce': 'GTC'}
+2026-04-23 16:07:13,546 - TradingBot - INFO - Order response received: {'orderId': 87654321, 'symbol': 'ETHUSDT', 'status': 'NEW', 'executedQty': '0.000', 'avgPrice': '0.00', 'type': 'LIMIT', 'side': 'SELL'}
+2026-04-23 16:07:13,546 - TradingBot - ERROR - Order placement failed: Invalid symbol: INVALID_SYMBOL. Must be alphanumeric (e.g., BTCUSDT).
+2026-04-23 16:19:37,518 - TradingBot - INFO - Binance Futures Testnet client initialized.
+2026-04-23 16:19:37,521 - TradingBot - INFO - Processing MARKET order for BTCUSDT
+2026-04-23 16:19:37,521 - TradingBot - INFO - Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-04-23 16:19:38,362 - TradingBot - INFO - Order response received: {'orderId': 13065018729, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ360591b82753d099de9535', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776941378297}
